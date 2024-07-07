@@ -1,0 +1,33 @@
+name: smart_attendance_system
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0' # Ensuring null safety
+  flutter: '>=1.17.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Your dependency on external packages
+  camera: ^0.9.4+5 # Ensure you have the latest version compatible with your Flutter SDK
+  http: ^0.13.3
+  image_picker: ^0.8.4+4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For enabling flutter, this section is necessary
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_ham.jpeg

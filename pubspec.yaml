@@ -1,0 +1,41 @@
+name: smart_attendance_system
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Your dependency on external packages
+  camera: ^0.10.0
+  http: 0.13.6
+  image_picker: ^0.8.7+3
+  image_picker_platform_interface: ^2.4.5
+
+  # Additional packages for enhanced UI
+  font_awesome_flutter: ^10.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - android\assets\Roboto-Black.ttf
+    - android\assets\Roboto-Medium.ttf
+    - android\assets\Roboto-Bold.ttf
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset:   android\assets\Roboto-Black.ttf
+        - asset:   android\assets\Roboto-Medium.ttf
+        - asset:   android\assets\Roboto-Bold.ttf
